@@ -1,5 +1,8 @@
 clear all
 close all
+
+%the ssn and f10.7 index are plotted against time in this bit of code.
+
 % Initialize figure
 h=irf_plot(2,'newfigure'); % h= irf_plot(number_of_subplots,'newfigure');
 tint=[irf_time([2013 01 01 0 0 0]) irf_time([2013 11 01 23 59 0])];
