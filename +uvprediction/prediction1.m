@@ -1,0 +1,9 @@
+function f = prediction1(x,fun)
+fun=coeffvalues(fun);
+a1=fun(1);
+b1=fun(2);
+c1=fun(3);
+a2=fun(4);
+b2=fun(5);
+c2=fun(6);
+f=  a1*sin(b1*x+c1) + a2*sin(b2*x+c2);
